@@ -1,0 +1,326 @@
+.challengeCard {
+
+  background-color: white;
+  border-radius: 20px;
+  margin: 50px;
+  position: relative;
+
+}
+
+
+#fill-page {
+
+  opacity:    0.5; 
+  background: #000; 
+  width:      100%;
+  height:     100%; 
+  z-index:    10;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+  
+
+}
+
+
+#user-circle {
+  min-height: 60%;
+  min-width: 60%;
+  border-radius: 900px;
+  animation-name: bubblexpand;
+  animation-duration: 3s;
+  animation-timing-function: (.8,-.5,.2,1.4);
+}
+
+#user-progress {
+  height: 125px;
+  width: 125px;
+  margin: 25px;
+}
+
+button1 {
+  background-color: none;
+}
+
+@keyframes bubblexpand {
+  from {
+    height: 100%;
+    width: 100%;
+  }
+  to {
+    height: 0%;
+    width: 0%;
+  }
+}
+
+@keyframes buttonblow {
+  from {
+    height: 0%;
+    width: 0%;
+    border-radius: 90px;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  margin: 20px;
+}
+
+button{
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  min-height: 40px;
+  min-width: 40px;
+  margin: 10px;
+  background-color: white;
+  border-color: white;
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+}
+
+
+H1 {
+  font-family: Nunito;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 20px;
+  color: grey;
+  margin: 0;
+}
+
+H2 {
+  font-family: Nunito;
+  font-size: 15px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  color: #CFCFCF;
+  margin: 0;
+}
+
+H3 {
+  font-family: Nunito;
+  font-size: 15px;
+  color: grey;
+  padding-top: 10px;
+  margin: 0;
+}
+
+H4 {
+  font-family: Nunito;
+  font-size: 15px;
+  color: black;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+H5 {
+  font-family: Nunito;
+  font-size: 25px;
+  color: black;
+  margin: 0;
+}
+
+H6 {
+  font-family: Nunito;
+  font-size: 15px;
+  color: grey;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+#l1 {
+  height: 5%;
+  width: 5%;
+}
+#l2 {
+  height: 7%;
+  width: 7%;
+}
+#l3 {
+  height: 10%;
+  width: 10%;
+}
+#l4 {
+  height: 10%;
+  width: 10%;
+}
+#l5 {
+  height: 12%;
+  width: 12%;
+}
+#l6 {
+  height: 17%;
+  width: 17%;
+}
+
+.progresscircle {
+  border-radius: 100px;
+  background-color: #F5F5F5;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 0;
+}
+
+.fillcircle {
+  border-radius: 50px;
+  background-image: radial-gradient(#CEF6CE
+, #01DFD7);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.currentcircle {
+  width: 60%;
+  height: 60%;
+  border-radius: 50px;
+  background-color: #E3E3E3;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#fill-one {
+  width: 50%;
+  height: 50%;
+  min-width: 50%;
+  min-height: 50%;
+  animation-name: bubblexpand;
+  animation-duration: 6s;
+  animation-timing-function: (.8,-.5,.2,1.4);
+}
+
+#fill-two {
+  width: 45%;
+  height: 45%;
+  min-width: 45%;
+  min-height: 45%;
+  animation-name: bubblexpand;
+  animation-duration: 6s;
+  animation-timing-function: (.8,-.5,.2,1.4);
+}
+
+#fill-three {
+  width: 65%;
+  height: 65%;
+  min-width: 65%;
+  min-height: 65%;
+  animation-name: bubblexpand;
+  animation-duration: 6s;
+  animation-timing-function: (.8,-.5,.2,1.4);
+}
+
+#fill-four {
+  width: 25%;
+  height: 25%;
+  min-width: 25%;
+  min-height: 25%;
+  animation-name: bubblexpand;
+  animation-duration: 6s;
+  animation-timing-function: (.8,-.5,.2,1.4);
+}
+
+#fill-five {
+  width: 30%;
+  height: 30%;
+  min-width: 30%;
+  min-height: 30%;
+  animation-name: bubblexpand;
+  animation-duration: 6s;
+  animation-timing-function: (.8,-.5,.2,1.4);
+}
+
+#fill-six {
+  width: 50%;
+  height: 50%;
+  min-width: 50%;
+  min-height: 50%;
+  animation-name: bubblexpand;
+  animation-duration: 6s;
+  animation-timing-function: (.8,-.5,.2,1.4);
+}
+
+.container {
+  max-width: 100%;
+}
+
+.imgcontainer {
+  height: 45%;
+  border-radius: 20px 20px 0 0;
+  background-color: #E6E6E6;
+  margin: 0;
+}
+
+.row {
+
+  max-width:100%;
+  align-items: stretch;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+}
+
+.card {
+  background-color: white;
+  margin: 10px;
+  max-width: 75%;
+  height: 325px;
+  border: 0;
+  flex-basis: 25%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border-radius: 20px 20px 100px 100px;
+  margin: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2)
+}
+
+.leader {
+  background-color: white;
+  margin: 10px;
+  max-width: 75%;
+  height: 325px;
+  border: 0;
+  flex-basis: 25%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border-radius: 20px;
+  margin: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2)
+}
+
+#add {
+  width: 75%;
+  margin: 5px;
+}
+
+#friends-section {
+
+  display: block;
+
+}
